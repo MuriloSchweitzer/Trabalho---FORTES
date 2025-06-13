@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+     <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre Parceiros - EcoFriends</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+               <img src="imagem_logo.png" alt="">
+                <span class="logo-text">EcoFriends</span>
+            </div>
+
+            <nav class="navigation">
+                <a href="home.html" class="nav-link">Início</a>
+                <a href="mapa.html
+                " class="nav-link">Mapa</a>
+                <a href="" class="nav-link">Mensagens</a>
+                <a href="./perfil.html" class="nav-link">Perfil</a>
+                <a href="" class="nav-link">Cadastrar Material</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="partners-main">
+        <div class="partners-container">
+            <div class="partners-header">
+                <h1 class="partners-title">Encontre parceiros</h1>
+                <p class="partners-subtitle">Busque instituições por tipo de material, localização ou nome.</p>
+            </div>
+
+            <!-- Search Form -->
+            <div class="search-form">
+                <div class="search-fields">
+                    <div class="field-group">
+                        <label class="field-label">Tipo de material</label>
+                        <select class="field-select">
+                            <option value="">Selecione o Material</option>
+                            <option value="papel">Papel</option>
+                            <option value="plastico">Plástico</option>
+                            <option value="vidro">Vidro</option>
+                            <option value="metal">Metal</option>
+                        </select>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label">Localização</label>
+                        <select class="field-select">
+                            <option value="">Cidade Ou CEP</option>
+                            <option value="serra">Serra, ES</option>
+                            <option value="vila-velha">Vila Velha, ES</option>
+                            <option value="vitoria">Vitória, ES</option>
+                        </select>
+                    </div>
+
+                    <div class="field-group">
+                        <label class="field-label">Tipo de Instituição</label>
+                        <select class="field-select">
+                            <option value="">Todos</option>
+                            <option value="empresa">Empresa</option>
+                            <option value="ong">ONG</option>
+                            <option value="cooperativa">Cooperativa</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="search-button-container">
+                    <button class="search-button">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="m21 21-4.35-4.35"/>
+                        </svg>
+                        Buscar
+                    </button>
+                </div>
+            </div>
+
+            <!-- Partner Cards -->
+            <div class="partner-cards">
+                <div class="partner-card">
+                    <h3 class="card-title">EcoRecicla LTDA</h3>
+                    <p class="card-description">Especializada em reciclagem de papel, papelão e plásticos diversos.</p>
+                    <div class="card-location">
+                        <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Serra, ES - 40km de distância</span>
+                    </div>
+                </div>
+
+                <div class="partner-card">
+                    <h3 class="card-title">Empresa ABC</h3>
+                    <p class="card-description">Centro de reciclagem especializado em vidros e materiais cerâmicos.</p>
+                    <div class="card-location">
+                        <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Vila Velha, ES - 8km de distância</span>
+                    </div>
+                </div>
+
+                <div class="partner-card">
+                    <h3 class="card-title">ONG Esperança</h3>
+                    <p class="card-description">Instituição de grande porte com doações regulares de papel e papelões.</p>
+                    <div class="card-location">
+                        <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Vila Velha, ES - 8km de distância</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="load-more-button">Carregar mais</button>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

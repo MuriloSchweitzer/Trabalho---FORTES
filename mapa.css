@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #003300;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 500px;
+}
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+}
+
+main {
+  display: flex;
+  padding: 10px;
+}
+
+aside {
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.voltar {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.legenda p {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.bolinha {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.vermelha {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.filtro {
+  margin-top: 20px;
+}
+
+.filtro h3 {
+  margin-bottom: 5px;
+}
+
+.mapa-area {
+  flex: 1;
+  padding: 20px;
+}
+
+.titulo-mapa h3 {
+  color: #008000;
+  margin-bottom: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.titulo-mapa p {
+  margin-bottom: 15px;
+}
+
+.mapa-img {
+  width: 200%;
+  max-width: 1000px;
+  border: 1px solid #ccc;
+}

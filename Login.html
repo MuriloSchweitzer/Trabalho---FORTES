@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+   <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="login.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="top-bar">
+    <img src="./img/logo.png" alt="logo" />
+    <h1>EcoFriends</h1>
+    <p>Reciclar começa com um clique!</p>
+  </div>
+
+  <main>
+    <form onsubmit="validarLogin(event)">
+      <label for="usuario_email">Usuário:</label><br />
+      <input type="email" maxlength="40" size="30" class="retangulo" id="usuario_email" placeholder="Digite seu email:" /><br />
+
+      <label for="senha">Senha:</label><br />
+      <input type="password" maxlength="40" size="30" class="retangulo" id="senha" placeholder="Digite sua senha:" /><br /><br />
+
+      <button class="botao_cadastro" type="submit">Enviar</button>
+      <p id="mensagem"></p>
+    </form>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
